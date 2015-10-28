@@ -61,11 +61,11 @@ dependencies:
     md5: 4a7e990baa4b3b40dcc45fdda2858c3f
   - name: php
     version: 5.6.14
-    uri: https://pivotal-buildpacks.s3.amazonaws.com/tmp/php-5.6.14-linux-x64-1446061680.tgz
+    uri: https://pivotal-buildpacks.s3.amazonaws.com/tmp/php-5.6.14-linux-x64-1446064840.tgz
     modules: ["bz2", "curl", "dba", "exif", "fileinfo", "ftp", "gd", "gettext", "gmp", "imap", "ldap", "mbstring", "mcrypt", "mysql", "mysqli", "opcache", "openssl", "pcntl", "pdo", "pdo_mysql", "pdo_pgsql", "pdo_sqlite", "pgsql", "pspell", "readline", "snmp", "soap", "sockets", "xsl", "zip", "zlib", "intl", "igbinary", "imagick", "mailparse", "memcache", "mongo", "msgpack", "protocolbuffers", "redis", "sundown", "xdebug", "yaf", "amqp", "lua", "phpiredis", "protobuf", "phalcon", "suhosin", "twig", "xcache", "xhprof", "memcached", "ioncube"]
     cf_stacks:
       - cflinuxfs2
-    md5: a76a708e149ea54cc92ffb151d329b39
+    md5: 2dee2ddd766ee0e167ee65eee947e299
   - name: nginx
     version: 1.8.0
     uri: https://pivotal-buildpacks.s3.amazonaws.com/concourse-binaries/nginx/nginx-1.8.0-linux-x64.tgz
