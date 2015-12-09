@@ -66,6 +66,12 @@ dependencies:
     cf_stacks:
       - cflinuxfs2
     md5: f7a87fc71e5e4a34f7ca2716d4e90916
+  - name: php
+    version: 7.0.0
+    uri: https://pivotal-buildpacks.s3.amazonaws.com/tmp/php-7.0.0-linux-x64-1449700007.tgz
+    cf_stacks:
+      - cflinuxfs2
+    md5: 417069f8e1166663283f92c26dcbbbad
   - name: nginx
     version: 1.8.0
     uri: https://pivotal-buildpacks.s3.amazonaws.com/concourse-binaries/nginx/nginx-1.8.0-linux-x64.tgz
