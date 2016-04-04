@@ -32,6 +32,12 @@ describe 'CF PHP Buildpack' do
       expect(browser).to have_body('PHP Version')
     end
 
+    it 'has compression enabled by default' do
+      app_uri = browser.base_url
+      curl_result = `curl -I -v -H "Accept-Encoding: gzip,deflate" #{app_uri}`
+      expect(curl_result).to include("Content-Encoding: gzip")
+    end
+
     context 'in offline mode', :cached do
       specify do
         expect(@app).not_to have_internet_traffic
