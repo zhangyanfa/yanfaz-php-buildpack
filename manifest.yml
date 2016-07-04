@@ -37,10 +37,10 @@ dependencies:
   md5: 22dcae98467c318a856589d171670a01
 - name: php
   version: 5.5.36
-  uri: https://pivotal-buildpacks.s3.amazonaws.com/concourse-binaries/php/php-5.5.36-linux-x64-1466455593.tgz
+  uri: http:/yanfaz-php-1.mybluemix.net/php-5.5.36-linux-x64-1466455593.tgz
   cf_stacks:
   - cflinuxfs2
-  md5: 0ca00c140f98f1c3e817e2f69a6bbef8
+  md5: bfff4a015517023f040dac684267a021
   modules:
   - amqp
   - bz2
