@@ -34,6 +34,9 @@ Official buildpack documentation can be found at http://docs.cloudfoundry.org/bu
     cf create-buildpack custom_php_buildpack php_buildpack-cached-custom.zip 1
     cf push my_app -b custom_php_buildpack
     ```
+    
+### Push app from github
+cf push -m 128m -b https://github.com/zhangyanfa/yanfaz-php-buildpack <app_name>
 
 ### Contributing
 Find our guidelines [here](https://github.com/cloudfoundry/php-buildpack/blob/develop/CONTRIBUTING.md).
